@@ -1,33 +1,3 @@
-/*
-Input
-  KittenService: CamelCaser
-  CamelCaser: 
-
-Output
-  CamelCaser, KittenService
-
-Input
-  KittenService: 
-  Leetmeme: Cyberportal
-  Cyberportal: Ice
-  CamelCaser: KittenService
-  Fraudstream: Leetmeme 
-  Ice:
-
-Output
-  KittenService, Ice, Cyberportal, Leetmeme, CamelCaser, Fraudstream
-
-Rejected Input
-  KittenService:
-  Leetmeme: Cyberportal
-  Cyberportal: Ice
-  CamelCaser: KittenService
-  Fraudstream:
-  Ice: Leetmeme
-
-  How to call --> call function directly displayOrder(ArrayOfPackages)
-*/
-
 /**
  * [packageDependencies is a namespace/package which will return a function that calculates installation order]
  * @param  {undefined}  [undefined]
